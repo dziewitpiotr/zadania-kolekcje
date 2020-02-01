@@ -18,10 +18,10 @@ public class Main {
         System.out.println(list);
 
         double suma = 0;
-        for (String element:list) {
+        for (String element : list) {
             suma += Integer.parseInt(element);
         }
-        double srednia = suma/list.size();
+        double srednia = suma / list.size();
         System.out.println("Suma elementow: " + suma);
         System.out.println("Srednia elementow: " + srednia);
 
@@ -48,14 +48,9 @@ public class Main {
         for (String str : tablica) {
             if (Integer.parseInt(str) > srednia) {
                 list.remove(str);
+            }
         }
-
-            System.out.println(list);
-
-
-
-
-
+        System.out.println(list);
+        
     }
-
 }
