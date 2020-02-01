@@ -1,4 +1,4 @@
 package zadanieLista6;
 
-public class Student {
+public class Dziennik {
 }
